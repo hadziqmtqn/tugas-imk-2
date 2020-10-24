@@ -1,0 +1,44 @@
+<resources>
+    <string name="app_name">Tugas IMK 2 (Khadziq)</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Khadziq Muttaqin</string>
+    <string name="nav_header_subtitle">hadziq.id@gmail.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="menu_home">Beranda</string>
+    <string name="assalam">Assalamu`alaikum Wb. Wb</string>
+    <string name="desk_home">Puji syukur kehadirat Allah SWT yang telah memberikan rahmat dan hidayah-Nya sehingga saya dapat menyelesaikan tugas mata kuliah Interaksi Manusia dan Komputer (IMK) ini.</string>
+    <string name="tujuan">Tujuan saya membuat aplikasi ini untuk mereview sebuah aplikasi PPDB Online berbasil web yang sedang saya buat
+        menggunakan framework Laravel yang saat ini sedang tahap pengembangan di versi 3.2</string>
+    <string name="penutup">Semoga aplikasi sederhana ini dapat bermanfaat untuk saat ini dan kemudian hari. Aaamiin. Terima kasih</string>
+    <string name="wassalam">Wassalamu`alaikum Wb. Wb</string>
+    <string name="text_nama">NAMA</string>
+    <string name="desk_nama">KHADZIQ MUTTAQIN</string>
+    <string name="text_nim">NIM</string>
+    <string name="desk_nim">18552011061</string>
+    <string name="text_fakultas">FAKULTAS</string>
+    <string name="desk_fakultas">FMIKOM</string>
+    <string name="text_prodi">PRODI</string>
+    <string name="desk_prodi">TEKNIK INFORMATIKA</string>
+    <string name="menu_gallery">Gallery</string>
+    <string name="menu_slideshow">Slideshow</string>
+    <string name="menu_about_project">Tentang Project</string>
+    <!--    About project -->
+    <string name="text_about_project">A. Deskripsi</string>
+    <string name="desk_project"><a href="https://ppdb.verval.id">PPDB Online</a> ini saya buat dengan tujuan sekolah-sekolah ataupun lembaga pendidikan baik formal mapun non formal
+    untuk mempermudah dalam proses pendaftaran peserta didik baru yang lebih praktis, dapat diakses kapanpun dan dimanapun terlebih
+        saat kondisi pandemi Covid 19 ini. Dibawah ini adalah tampilan <i>HomePage</i>.</string>
+    <string name="imgppdb_1">PPDB Online</string>
+    <string name="desk_p_2">Pada saat <i>review</i> ini dibuat, aplikasi sedang dalam tahap pengembangan pada versi 3.2, pengembangan dalam
+    menambah fitur-fitur baru.</string>
+    <string name="text_fitur">B. Fitur</string>
+    <string name="desk_fitur_1">1. ID Registrasi otomatis.</string>
+    <string name="desk_fitur_2">2. Halaman chart yang menampilkan jumlah rekapitulasi siswa.</string>
+    <string name="desk_fitur_3">3. Bisa cetak formulir pendaftaran dan kartu ujian ke dalam bentuk PDF.</string>
+    <string name="desk_fitur_4">4. Cetak laporan data siswa masuk dengan di export ke Microsoft Excel.</string>
+    <string name="desk_fitur_5">5. Data master Agama, Pekerjaan, Pendidikan, Jalur Pendaftaran, dan Asal Sekolah.</string>
+    <string name="desk_fitur_6">6. Batas maksimal kuota pendaftar tiap tahun.</string>
+    <string name="imgppdb_2">Fitur PPDB Online</string>
+</resources>
