@@ -80,6 +80,55 @@
                 tools:ignore="RtlCompat" />
 
             <TextView
+                android:id="@+id/textTeknologi"
+                android:layout_width="340dp"
+                android:layout_height="30dp"
+                android:layout_marginStart="10dp"
+                android:layout_marginLeft="10dp"
+                android:text="@string/text_tekno"
+                android:textColor="#000000"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/deskTekno_1"
+                android:layout_width="wrap_content"
+                android:layout_height="90dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:gravity="center_horizontal"
+                android:orientation="vertical"
+                android:text="@string/desk_tekno_1"
+                android:textAlignment="textStart"
+                android:textColor="#000000"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.422"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintVertical_bias="0.098"
+                tools:ignore="RtlCompat" />
+
+            <TextView
+                android:id="@+id/deskTekno_2"
+                android:layout_width="wrap_content"
+                android:layout_height="90dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:gravity="center_horizontal"
+                android:orientation="vertical"
+                android:text="@string/desk_tekno_2"
+                android:textAlignment="textStart"
+                android:textColor="#000000"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.422"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintVertical_bias="0.098"
+                tools:ignore="RtlCompat" />
+
+            <TextView
                 android:id="@+id/textFitur"
                 android:layout_width="340dp"
                 android:layout_height="30dp"
@@ -207,7 +256,7 @@
             <ImageView
                 android:id="@+id/img_ppdb_2"
                 android:layout_width="wrap_content"
-                android:layout_height="307dp"
+                android:layout_height="300dp"
                 android:contentDescription="@string/imgppdb_2"
                 app:srcCompat="@drawable/ppdb_2"
                 tools:ignore="MissingConstraints" />
