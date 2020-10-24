@@ -33,7 +33,12 @@
     <string name="imgppdb_1">PPDB Online</string>
     <string name="desk_p_2">Pada saat <i>review</i> ini dibuat, aplikasi sedang dalam tahap pengembangan pada versi 3.2, pengembangan dalam
     menambah fitur-fitur baru.</string>
-    <string name="text_fitur">B. Fitur</string>
+    <string name="text_tekno">B. Teknologi yang digunakan</string>
+    <string name="desk_tekno_1">PPDB Online ini dirancang menggunakan framework Laravel yang berbasis bahasa pemrograman PHP sedangkan versi yang diguanakan
+    Laravel versi 5.8. Versi Laravel sendiri pada saat ini telah mencapai di versi 8.x .</string>
+    <string name="desk_tekno_2">Untuk desain tampilan atau template aplikasi ini menggunakan AdminLte Theme versi 2.4.18 dan dilengkapi dengan Javascript
+    Library SweetAlern, SweetAlern2, Select2, DataTables, Moment.js, dan jQuery.</string>
+    <string name="text_fitur">C. Fitur</string>
     <string name="desk_fitur_1">1. ID Registrasi otomatis.</string>
     <string name="desk_fitur_2">2. Halaman chart yang menampilkan jumlah rekapitulasi siswa.</string>
     <string name="desk_fitur_3">3. Bisa cetak formulir pendaftaran dan kartu ujian ke dalam bentuk PDF.</string>
