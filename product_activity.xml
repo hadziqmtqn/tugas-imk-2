@@ -1,0 +1,185 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ui.dashboard.DashboardFragment">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:layout_constraintBottom_toBottomOf="parent">
+
+        <LinearLayout
+            android:id="@+id/linear_1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <ImageView
+                android:id="@+id/img_home"
+                android:layout_width="wrap_content"
+                android:layout_height="170dp"
+                android:layout_marginTop="-15dp"
+                android:contentDescription="@string/visi"
+                app:srcCompat="@drawable/home"
+                tools:ignore="MissingConstraints" />
+
+            <TextView
+                android:id="@+id/produk_hni"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:autoLink="web"
+                android:gravity="center_horizontal"
+                android:linksClickable="true"
+                android:orientation="vertical"
+                android:text="PRODUK HNI"
+                android:textAlignment="textStart"
+                android:textColor="#000000"
+                android:textSize="24dp"
+                android:textStyle="bold"
+                tools:ignore="RtlCompat" />
+            
+<!--            awal magafit-->
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginTop="10dp"
+                android:layout_marginBottom="10dp"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:id="@+id/img_magafit"
+                    android:layout_width="150dp"
+                    android:layout_height="150dp"
+                    android:contentDescription="@string/visi"
+                    app:srcCompat="@drawable/magafit"
+                    tools:ignore="MissingConstraints" />
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:id="@+id/magafit"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="10dp"
+                        android:layout_marginRight="10dp"
+                        android:autoLink="web"
+                        android:gravity="center_horizontal"
+                        android:linksClickable="true"
+                        android:orientation="vertical"
+                        android:text="@string/magafit"
+                        android:textAlignment="textStart"
+                        android:textColor="#000000"
+                        android:textSize="20dp"
+                        android:textStyle="bold"
+                        tools:ignore="RtlCompat" />
+
+                    <TextView
+                        android:id="@+id/guna_magafit"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="10dp"
+                        android:layout_marginRight="10dp"
+                        android:autoLink="web"
+                        android:gravity="center_horizontal"
+                        android:linksClickable="true"
+                        android:orientation="vertical"
+                        android:text="Kegunaan"
+                        android:textAlignment="textStart"
+                        android:textColor="#000000"
+                        android:textSize="18dp"
+                        tools:ignore="RtlCompat" />
+
+                    <TextView
+                        android:id="@+id/guna_magafit1"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="10dp"
+                        android:layout_marginRight="10dp"
+                        android:gravity="center_horizontal"
+                        android:orientation="vertical"
+                        android:text="@string/guna_magafit"
+                        android:textAlignment="textStart"
+                        android:textColor="#000000"
+                        android:autoLink="web"
+                        android:linksClickable="true"
+                        tools:ignore="RtlCompat" />
+
+                    <TextView
+                        android:id="@+id/kandungan_magafit"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="10dp"
+                        android:layout_marginRight="10dp"
+                        android:autoLink="web"
+                        android:gravity="center_horizontal"
+                        android:linksClickable="true"
+                        android:orientation="vertical"
+                        android:text="Kandungan"
+                        android:textAlignment="textStart"
+                        android:textColor="#000000"
+                        android:textSize="18dp"
+                        tools:ignore="RtlCompat" />
+
+                    <TextView
+                        android:id="@+id/kegunaan_magafit1"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="10dp"
+                        android:layout_marginRight="10dp"
+                        android:gravity="center_horizontal"
+                        android:orientation="vertical"
+                        android:text="@string/kandungan_magafit"
+                        android:textAlignment="textStart"
+                        android:textColor="#000000"
+                        android:autoLink="web"
+                        android:linksClickable="true"
+                        tools:ignore="RtlCompat" />
+
+                    <TextView
+                        android:id="@+id/Aturan_Pakai"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="10dp"
+                        android:layout_marginRight="10dp"
+                        android:autoLink="web"
+                        android:gravity="center_horizontal"
+                        android:linksClickable="true"
+                        android:orientation="vertical"
+                        android:text="Aturan Pakai"
+                        android:textAlignment="textStart"
+                        android:textColor="#000000"
+                        android:textSize="18dp"
+                        tools:ignore="RtlCompat" />
+
+                    <TextView
+                        android:id="@+id/Aturan_Pakai1"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="10dp"
+                        android:layout_marginRight="10dp"
+                        android:gravity="center_horizontal"
+                        android:orientation="vertical"
+                        android:text="@string/aturan_pakai"
+                        android:textAlignment="textStart"
+                        android:textColor="#000000"
+                        android:autoLink="web"
+                        android:linksClickable="true"
+                        tools:ignore="RtlCompat" />
+
+                </LinearLayout>
+
+            </LinearLayout>
+<!--            akhir magafit-->
+
+        </LinearLayout>
+
+    </ScrollView>
+</androidx.constraintlayout.widget.ConstraintLayout>
